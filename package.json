@@ -1,0 +1,34 @@
+{
+  "name": "issues-finder",
+  "version": "1.0.0",
+  "description": "Используя [Github API](https://developer.github.com) реализовать приложение, выполняющее следующие функции:",
+  "main": "./source/index.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.44.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11"
+  },
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js, jsx}": [
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metacorn/thinknetica-issues-finder.git"
+  },
+  "author": "metacorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metacorn/thinknetica-issues-finder/issues"
+  },
+  "homepage": "https://github.com/metacorn/thinknetica-issues-finder#readme"
+}
