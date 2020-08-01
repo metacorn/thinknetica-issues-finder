@@ -1,11 +1,14 @@
 {
   "name": "issues-finder",
   "version": "1.0.0",
-  "description": "Используя [Github API](https://developer.github.com) реализовать приложение, выполняющее следующие функции:",
+  "description": "Find Github issues by user and repository.",
   "main": "./source/index.js",
   "dependencies": {
-    "webpack-cli": "^3.3.12",
-    "webpack": "^4.44.0"
+    "bootstrap": "^4.5.0",
+    "css-loader": "^4.2.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
