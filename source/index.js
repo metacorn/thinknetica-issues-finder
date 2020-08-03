@@ -53,7 +53,7 @@ function renderResult(issuesList) {
         issuesListContainer.innerHTML = '<div class="list-group"></div>';
         issuesList.forEach((issue) => issuesListContainer.firstElementChild.append(issueTemplate(issue)));
     } else {
-        issuesListContainer.innerHTML = '<p><h4>No issues found!</h4><p>';
+        renderInfo('No issues found in this repository!')
     }
 }
 
