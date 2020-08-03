@@ -1,0 +1,15 @@
+input.input-sm {
+    height: 30px;
+}
+
+button.btn-sm {
+    height: 30px;
+}
+
+#issues-finder-form {
+  height: 30px;
+}
+
+.bg-dark {
+  background-color: #24292e;
+}

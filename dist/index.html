@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Github issues finder</title>
+  </head>
+  <body>
+    <div class="container-fluid bg-dark pl-5 pt-3 pb-3 ml-0 mr-0">
+      <form id="issues-finder-form">
+        <div class="form-row justify-content-center">
+          <div class="d-flex justify-content-center">
+            <div class="col-5 pr-1">
+              <input type="text" class="form-control input-sm" name="username" placeholder="username" spellcheck="false"
+                autocomplete="off">
+            </div>
+            <div class="col-5 pl-1 pr-1">
+              <input type="text" class="form-control input-sm" name="repository" placeholder="repository" spellcheck="false"
+                autocomplete="off">
+            </div>
+            <div class="col-2 pl-1">
+              <button type="submit" class="btn btn-secondary btn-sm">
+                Find
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-7" id="issues-list-container">
+        </div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

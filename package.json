@@ -1,0 +1,39 @@
+{
+  "name": "issues-finder",
+  "version": "1.0.0",
+  "description": "Find Github issues by user and repository.",
+  "main": "./source/index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "css-loader": "^4.2.0",
+    "moment": "^2.27.0",
+    "style-loader": "^1.2.1",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js, jsx}": [
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metacorn/thinknetica-issues-finder.git"
+  },
+  "author": "metacorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metacorn/thinknetica-issues-finder/issues"
+  },
+  "homepage": "https://github.com/metacorn/thinknetica-issues-finder#readme"
+}
